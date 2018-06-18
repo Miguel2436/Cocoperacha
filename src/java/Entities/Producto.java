@@ -46,7 +46,6 @@ public class Producto implements Serializable {
     @Column(name = "nombre")
     private String nombre;
     @Basic(optional = false)
-    @NotNull
     @Lob
     @Column(name = "imagen")
     private byte[] imagen;
